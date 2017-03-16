@@ -1,0 +1,246 @@
+.squadup-checkout-nav{
+  display: none !important;
+}
+
+.squadup-even-titlebar{
+ display: none !important; 
+}
+
+.page-title-ident{
+  display: none !important;
+}
+
+.squadup-tickets-table{
+  color:black !important;
+  text-transform: uppercase !important;
+  font-family: Helvetica !important;
+
+   letter-spacing: 1px !important;
+}
+
+.squadup-checkout-attendee-info{
+ color:black !important;
+  text-transform: uppercase !important;
+  font-family: Helvetica !important;
+  /*-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;*/
+   letter-spacing: 1px !important; 
+}
+
+.squadup-checkout-app .btn-info {
+  background-color: black !important;
+  border: black !important;
+  color: white !important;
+ 
+}
+
+.squadup-embed-view a{
+  color:#EF2B68 !important;
+    text-transform: uppercase !important;
+  font-family: Helvetica !important;
+  
+   letter-spacing: 1px !important;
+}
+
+.squadup-embed-view a:hover{
+  opacity: .5 !important;
+}
+
+.su-section-subtitle{
+  color:black !important;
+  text-transform: uppercase !important;
+  font-family: Helvetica !important;
+
+   letter-spacing: 1px !important;
+}
+
+.control-label{
+  color:black !important;
+  text-transform: uppercase !important;
+  font-family: Helvetica !important;
+
+   letter-spacing: 1px !important; 
+}
+
+.cssload-loader{
+  display: none !important;
+}
+
+.powered-by-squadup{
+  margin-bottom: 30px !important;
+}
+
+.squadup-checkout-submit-payment:hover{
+  color:rgba(255,255,255,.6) !important;
+}
+
+button.paypal.is-active{
+  background-color: black !important;
+}
+
+.squadup-checkout-app .squadup-navigation-view-container .squadup-checkout-submit-payment{
+  background-color: black !important;
+  border-color: black !important;
+}
+
+/*.squadup-user-banner h1{
+  display: none !important;
+}
+*/
+.squadup-embed-view{
+  color: black !important;
+}
+
+p:nth-child(1){
+
+  text-align: center !important;
+}
+
+p:nth-child(2){
+  color: red !important;
+  text-align: center !important;
+
+}
+
+.squadup-user-banner h1{
+  display: none !important;
+}
+
+.her{
+  transition: .3s ease-in-out !important;
+}
+
+.her:hover{
+  opacity: .7 !important;
+}
+
+.squadup-checkout-app .squadup-navigation-view-container .squadup-tickets-table .tickets.gray-total{
+  background-color: black !important;
+  color: white !important;
+
+}
+
+.squadup-user-banner img{
+  
+  display: none !important;
+
+}
+
+.squadup-checkout-app .squadup-navigation-view-container .squadup-checkout-attendee-info .su-checkout-not-logged-in .facebook-auth-btn button{
+
+   text-transform: uppercase !important;
+   letter-spacing: 1.4px !important;
+}
+
+.soc{
+
+   text-transform: uppercase !important;
+   letter-spacing: 1.5px !important;
+}
+
+.twen{
+
+   text-transform: uppercase !important;
+   letter-spacing: 1.5px !important;
+   color: black !important; 
+}
+
+/*UNHIDE FOR RSVP*/
+/*.gray-total{
+  display: none !important;
+}
+
+.gray-hr{
+  display: none !important;
+}
+
+.money-align{
+ display: none !important; 
+}
+
+div.col-sm-2.text-center{
+  float:right ;
+}
+
+
+div.col-sm-3.col-xs-4.text-center{
+  float: right ;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+
+.squadup-checkout-app .col-xs-4{
+  width: 100% !important;
+}
+
+}*/
+
+html#background {
+  background: url(../img/bg1.jpg) no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+body#background {
+  background: url(../img/bg1.jpg) no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.sm{
+  color: black;
+  font-size: 40px !important;
+  opacity: 1;
+  transition: .4s ease-in-out;
+}
+
+.sm:hover{
+  opacity: .6;
+}
+
+.pbss{
+  opacity: 1;
+  transition: .4s ease-in-out;
+}
+
+.pbss:hover{
+  opacity: .6;
+}
+
+.money-align{
+ display: none !important; 
+}
+
+div.col-sm-2.text-center{
+  float:right ;
+}
+
+
+div.col-sm-3.col-xs-4.text-center{
+  float: right ;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+
+.squadup-checkout-app .col-xs-4{
+  width: 100% !important;
+}
+
+}
+
+.squadup-checkout-app .squadup-navigation-view-container .squadup-tickets-table .tickets.gray-total{
+  display: none !important;
+
+}
+
+.gray-hr{
+  display: none !important;
+}

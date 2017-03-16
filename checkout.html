@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html id="background">
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>The NB Taproom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--     <meta name="twitter:card" content="photo" />
+    <meta name="twitter:site" content="@theillmore" />
+    <meta name="twitter:title" content="illmore16" />
+    <meta name="twitter:image" content="http://i.imgur.com/thQECd9.jpg" />
+    <meta name="twitter:url" content="http://illmore.zone" /> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/sam.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+        body, html{ height: 100%; }
+        table{ width: 100%; height: 100%; }
+        td{ text-align: center; vertical-align: middle; overflow: hidden; padding: 30px; }
+        .fixed{ position: fixed; }
+        .top-left{top: 10px;left: 10px;}
+        .top-right{top: 10px;right: 10px;}
+        .bottom-left{bottom: 10px;left: 10px;}
+        .bottom-right{bottom: 10px;right: 10px;}
+        #countdown{
+            margin-top:0px;
+            margin-bottom:20px;
+            color:black;
+        }
+        .illmore-logo{ max-width: 100%; }
+        button.button{
+            display: inline;
+        }
+
+        @media(max-width: 768px){
+            .illmore-logo{
+                width: 100%;
+            }
+            td{
+                padding: 60px 30px 30px  30px;
+            }
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+</head>
+<body id="background">
+<a href="https://www.facebook.com/newbalance" target="_blank" class="fixed top-left">
+    <i class="fa fa-facebook-square sm"></i>
+</a>
+<a href="https://www.twitter.com/newbalance" target="_blank" class="fixed top-right">
+    <i class="fa fa-twitter-square sm"></i>
+</a>
+
+<table>
+    <tr>
+        <td>
+            <a href="index.html"><img src="img/hero1.png"  class="illmore-logo hidden-xs" width="373" height="373" ></a>
+            <a href="index.html"><img src="img/hero1.png"  class="illmore-logo visible-xs" style="margin-top:10px"></a>
+
+            <br class="hidden-xs"><br><br>
+            <!-- <a href="https://www.squadup.com" target="_blank"><img src="img/pbs.svg" class="hidden-xs pbss"></a>
+            <a href="https://www.squadup.com" target="_blank"><img src="img/pbs.svg" class="visible-xs pbss" style="margin-bottom:0px; margin-left: auto; margin-right: auto; margin-top: 20px"></a> -->
+            <br>
+
+            <!-- <ul id="countdown">
+                <li>
+                    <span class="days timenumbers yellow-text pop1" >00</span>
+                    <p class="timeRefDays timedescription pop" style="margin-left:3px; margin-top:15px; letter-spacing:1.1px">days</p>
+                </li>
+                <li>
+                    <span class="hours timenumbers yellow-text pop1">00</span>
+                    <p class="timeRefHours timedescription pop" style="margin-left:-1px;margin-top:15px ">hours</p>
+                </li>
+                <li>
+                    <span class="minutes timenumbers yellow-text pop1">00</span>
+                    <p class="timeRefMinutes timedescription pop" style="margin-left:-8px;margin-top:15px">minutes</p>
+                </li>
+                <li>
+                    <span class="seconds timenumbers yellow-text pop1">00</span>
+                    <p class="timeRefSeconds timedescription pop" style="margin-left:-11px;margin-top:15px">seconds</p>
+                </li>
+            </ul> -->
+            
+            <link rel="stylesheet" href="https://s3.amazonaws.com/checkout.squadup.com/default/css/bootstrap-namespace.min.css">
+            <div id="squadup-checkout"></div>
+            <script>
+                squadup = {
+                    // title: 'Zalea LLC Events',
+                    // image: 'https://s3.amazonaws.com/checkout.squadup.com/squadup-logo.png', 
+                    // ^^CHANGE TO YOUR LOGO
+                    root: 'squadup-checkout',
+                    userId: [3772347],
+                    eventId: 9435
+                }
+            </script>
+            <script src="https://s3.amazonaws.com/checkout.squadup.com/main.min.js"></script>
+            <br><br>
+
+            <!-- <p style="color:black; font-size:1.1em" class="pop hidden-xs">
+                <strong>
+                    THIS IS NOT A TICKET. THIS IS NOT AN RSVP.
+                    <br> THIS DOES NOT GUARANTEE ENTRY.
+                    <br> THE ILLMORE IS A PRIVATE PARTY.
+                    <br> BY REGISTERING, YOU ARE ENTERING FOR FUTURE
+                    <br>INFORMATION TO RECEIVE A FORMAL INVITATION.
+                </strong>
+            </p> -->
+            <!-- <p style="color:black; font-size:1.1em" class="pop visible-xs">
+                <strong>
+                    THIS IS NOT A TICKET.<br> THIS IS NOT AN RSVP.
+                    <br> THIS DOES NOT<br> GUARANTEE ENTRY.
+                    <br> THE ILLMORE IS A<br> PRIVATE PARTY.
+                    <br> BY REGISTERING, YOU ARE <br>ENTERING FOR FUTURE
+                    <br>INFORMATION TO RECEIVE A <br>FORMAL INVITATION.
+                </strong>
+            </p> -->
+        </td>
+    </tr>
+</table>
+<a href="https://www.newbalance.com" target="_blank" class="fixed bottom-left">
+    <img src="img/nb.svg" class="hoverr">
+</a>
+<a href="https://instagram.com/newbalance" target="_blank" class="fixed bottom-right">
+    <i class="fa fa-instagram sm"></i>
+</a>
+
+
+<script src="js/bootstrap.js"></script>
+
+<script type="text/javascript" src="js/retina.js"></script>
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-37296327-6', 'auto');
+ ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+
